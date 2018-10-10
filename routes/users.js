@@ -24,7 +24,6 @@ api.post('/adminLogin', async ctx => {
     } finally {
         com.end();
     }
-
 });
 
 module.exports = api
